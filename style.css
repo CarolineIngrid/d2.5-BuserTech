@@ -7,6 +7,7 @@
   body{
     background-color:  #2e2d4c;
     background-image: url(imagens/background-foods-v4.png);
+    font-family: 'Roboto Slab', serif;
   }
 
 .conteudo{
@@ -19,11 +20,20 @@
     border-radius: 5%;
     margin-bottom: 10%;
 }
-
+.conteudo nav{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10%;
+   padding-top: 5%;
+  
+  
+}
  .conteudo ul{
      list-style: none;
      color: rgb(54, 51, 46);
-     font-size: 26px;
+     font-size: 20px;
+     width: auto;
+     
 }
 
 .conteudo li{
@@ -44,7 +54,6 @@
 .logo img{
     height: 160px;
     width: 160px;
-    /* align-self: center; */
     padding-bottom: 2%;
    
 }
@@ -60,8 +69,8 @@
 }
 
 .portfolio img {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     border-radius: 5%;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -72,4 +81,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.experiencia{
+    padding-top: 1%;
+    margin-left: 2%;
+}
+
+section{
+    padding: 5%;
+    text-align: justify;
+    font-size: 18px;
+    float: right;
 }
